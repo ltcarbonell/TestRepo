@@ -12,5 +12,5 @@ jobs:
       - uses: zoispag/action-assign-milestone@v1
         with:
           repo-token: "${{ secrets.GITHUB_TOKEN }}"
-          milestone: 'roadmap'
+          milestone: '1.1.1' # This can be generated programatically?
           
